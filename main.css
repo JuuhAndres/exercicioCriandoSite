@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    padding: 16px 0;
+    background-color: #581D22;
+    color: #fff;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.548);
+}
+header h1{
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+
+
+}
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header nav li a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section p{
+    margin-bottom: 8px;
+
+}
+section h2{
+    margin: 16px;  
+}
+section h3{
+    margin-bottom: 16px;
+}
+section .start-front{
+    margin-right: 32px;
+}
+section .container{
+    align-items: flex-start;
+}
+.books .img-books{
+    height: 120px;
+}
+.books .img-books:hover{
+
+        transform: scale(2.2); 
+        transition: 3s;
+}
+
+.books .list-books{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between; 
+}
+
+.books .list-books li{
+    list-style: none;
+}
+.books{
+    margin-top: 50px;
+}
+section h2{
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color:  #581D22;
+    color: #ecf0f1;
+    padding: 16px ;
+    text-align: center;
+    box-shadow: 10px -5px 5px  rgba(0, 0, 0, 0.548) ;
+}
